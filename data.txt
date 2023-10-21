@@ -1,0 +1,251 @@
+Hong Kong
+China
+27.880
+Victoria Peak
+--------------------
+Bangkok
+Thailand
+22.453
+The Grand Palace
+--------------------
+London
+UK
+19.827
+Big Ben
+--------------------
+Singapore
+Singapore
+17.618
+Marina Bay
+--------------------
+Macau
+China
+17.337
+Ruins of St Paul
+--------------------
+Paris
+France
+15.834
+Eiffel Tower
+--------------------
+Dubai
+UAE
+15.790
+Burj Khalifa
+--------------------
+New York City
+USA
+13.100
+Times Square
+--------------------
+Kuala Lumpur
+Malaysia
+12.843
+Petronas Twin Towers
+--------------------
+Shenzhen
+China
+12.075
+Shenzhen Window of the World
+--------------------
+Phuket
+Thailand
+11.613
+Big Buddha Phuket
+--------------------
+Istanbul
+Turkey
+10.730
+Hagia Sophia Mosque
+--------------------
+Delhi
+India
+10.157
+Jantar Mantar
+--------------------
+Tokyo
+Japan
+9.549
+Tokyo Tower
+--------------------
+Rome
+Italy
+9.531
+Pantheon
+--------------------
+Antalya
+Turkey
+9.482
+Kaleici
+--------------------
+Taipei
+Taiwan
+9.273
+Chiang Kai-shek Memorial Hall
+--------------------
+Guangzhou
+China
+9.004
+Canton Tower
+--------------------
+Mumbai
+India
+8.984
+Gateway Of India
+--------------------
+Prague
+Czech Republic
+8.806
+Charles Bridge
+--------------------
+Mecca
+Saudi Arabia
+8.632
+Al Masjid Al Haram
+--------------------
+Miami
+USA
+8.075
+Everglades National Park
+--------------------
+Amsterdam
+Netherlands
+7.848
+Rijksmuseum
+--------------------
+Seoul
+South Korea
+7.659
+Gyeongbokgung Palace
+--------------------
+Pattaya
+Thailand
+7.426
+The Sanctuary Of Truth
+--------------------
+Shanghai
+China
+7.193
+The Bund
+--------------------
+Los Angeles
+USA
+7.165
+Universal Studios Hollywood
+--------------------
+Las Vegas
+USA
+6.687
+Las Vegas Strip
+--------------------
+Agra
+India
+6.644
+Taj Mahal
+--------------------
+Osaka
+Japan
+6.605
+Osaka Castle
+--------------------
+Barcelona
+Spain
+6.530
+Sagrada Familia
+--------------------
+Milan
+Italy
+6.347
+Duomo di Milano
+--------------------
+Denpasar
+Indonesia
+6.238
+Bajra Sandhi Monument
+--------------------
+Vienna
+Austria
+6.067
+Schonbrunn Palace
+--------------------
+CancÃºn
+Mexico
+6.039
+Playa Delfines
+--------------------
+Berlin
+Germany
+5.627
+Brandenburg Gate
+--------------------
+Johor Bahru
+Malaysia
+5.571
+Johor Ancient Temple
+--------------------
+Johannesburg
+South Africa
+5.535
+V&A Waterfront, Western Cape
+--------------------
+Ho Chi Minh City
+Vietnam
+5.500
+Binh Tay Market
+--------------------
+Riyadh
+Saudi Arabia
+5.396
+Historic Diriyah Fort
+--------------------
+Venice
+Italy
+5.316
+Piazza San Marco
+--------------------
+Jaipur
+India
+5.288
+Hawa Mahal
+--------------------
+Madrid
+Spain
+5.275
+Museo Nacional del Prado
+--------------------
+Orlando
+USA
+5.269
+Walt Disney World Resort
+--------------------
+Chennai
+India
+5.086
+Kapaleeshwarar Temple
+--------------------
+Dublin
+Ireland
+4.986
+The Guinness Storehouse
+--------------------
+Florence
+Italy
+4.941
+The Uffizi Gallery
+--------------------
+Moscow
+Russia
+4.800
+The Red Square
+--------------------
+Athens
+Greece
+4.797
+The Acropolis
+--------------------
+Cairo
+Egypt
+4.388
+The Museum of Egyptian Antiquities
+--------------------
+Annotations
