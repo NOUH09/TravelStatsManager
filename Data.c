@@ -66,16 +66,13 @@ void fill_array(city_info *array, FILE *pf, int *num_cities)
     {
         fgets(array[i].name, 50, pf);
         size_t len = strlen(array[i].name);
-        // Remove leading and trailing whitespace from array[i].name
         while (len > 0 && isspace(array[i].name[len - 1]))
         {
             array[i].name[len - 1] = '\0';
             len--;
         }
-        printf("______%s_____\n", array[i].name);
         fgets(array[i].country, 50, pf);
         size_t lenv = strlen(array[i].country);
-        // Remove leading and trailing whitespace from array[i].name
         while (lenv > 0 && isspace(array[i].country[lenv - 1]))
         {
             array[i].country[lenv - 1] = '\0';
@@ -91,6 +88,7 @@ void fill_array(city_info *array, FILE *pf, int *num_cities)
 }
 int ranking(city_info *array, int num_cities, char *Target)
 {
+
     size_t en = strlen(Target);
     while (en > 0 && isspace(Target[en - 1]))
     {
@@ -111,7 +109,6 @@ int ranking(city_info *array, int num_cities, char *Target)
 
 int search_information(city_info *array, city_information *arr, char *Target2, int num_cities)
 {
-    // Remove leading and trailing whitespace from the input city name
     size_t en = strlen(Target2);
     while (en > 0 && isspace(Target2[en - 1]))
     {
@@ -168,7 +165,6 @@ void sorting(city_info *array, int num_cities)
                 swapped = 1;
             }
         }
-        // If no two elements were swapped in the inner loop, the array is already sorted.
         if (swapped == 0)
             break;
     }
@@ -291,7 +287,6 @@ int main(void)
                 getchar();
                 printf("ENTER THE CITY THAT YOU WANT HERE RANKING:\n");
                 fgets(Target, sizeof(Target), stdin);
-                printf("______%s_____\n", Target);
                 check = ranking(array, num_cities, Target); // check have the ranking of the that we are looking for city
                 if (check == -1)
                 {
@@ -335,7 +330,7 @@ int main(void)
                 size_t len = strlen(Target3);
                 while (len > 0 && Target3[len - 1] == '\n')
                 {
-                    Target3[len - 1] = '\0'; // Remove the newline character
+                    Target3[len - 1] = '\0'; // remove the \n and spaces
                 }
                 printf("ENTER THE NEW NUMBER OF VISITORS FOR THAT CITY IN FORM OF  0.0000\n");
                 scanf("%f", &tourist);
@@ -343,17 +338,7 @@ int main(void)
                 if (check3 != -1)
                 {
                     printf("THE CITY EXISTS, AND THE NUMBER OF VISITORS IS UPDATED\n");
-                    // Re-sort the array based on the number of visitors
                     sorting(array, num_cities);
-                    printf("Updated City Array:\n");
-                    for (int i = 0; i < num_cities; i++)
-                    {
-                        printf("City Name: %s\n", array[i].name);
-                        printf("Country: %s\n", array[i].country);
-                        printf("Number of Visitors: %0.3f\n", array[i].num_vist);
-                        printf("Place: %s\n", array[i].place);
-                        printf("\n");
-                    }
                 }
                 else
                     printf("THE CITY THAT YOU ARE LOOKING FOR DOES NOT EXIST\n");
@@ -364,13 +349,13 @@ int main(void)
         case 6:
             if (Flag == 1)
             {
-                printf("ENTER A CITY:\n");
                 getchar();
+                printf("ENTER A COUNTRY:\n");
                 fgets(Target4, 50, stdin);
                 size_t lent = strlen(Target4);
                 while (lent > 0 && Target4[lent - 1] == '\n')
                 {
-                    Target4[lent - 1] = '\0'; // Remove the newline character
+                    Target4[lent - 1] = '\0';
                 }
                 create_file(target_file, array, num_cities, Target4, &check5);
                 if (check5 == 1)
@@ -394,18 +379,13 @@ int main(void)
                 size_t lentr = strlen(Target5);
                 while (lentr > 0 && Target5[lentr - 1] == '\n')
                 {
-                    Target5[lentr - 1] = '\0'; // Remove the newline character
+                    Target5[lentr - 1] = '\0';
                 }
 
                 check4 = delete (array, &num_cities, Target5);
                 if (check4 == 1)
                 {
-                    printf("THE CITY EXIST\n");
-
-                    for (int i = 0; i < num_cities; i++)
-                    {
-                        printf("%s\n", array[i].name);
-                    }
+                    printf("THE CITY EXIST AND IT WAS DELETE \n");
                 }
                 else
                     printf("THE CITY DON T EXIST\n");
