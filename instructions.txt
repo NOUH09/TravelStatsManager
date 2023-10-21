@@ -1,0 +1,40 @@
+Program Objective: Create a program to manage and analyze tourism statistics for cities
+around the world. The program will use a menu-driven interface and a defined data structure
+(city_info) to perform various tasks related to the data.
+Main Menu Options:
+1. View File Content:
+○ Display the content of the data file in groups of 5 cities at a time.
+○ Return the total number of cities in the file.
+2. Load File Data to an Array:
+○ Load data from the file into an array for further processing.
+○ Close the data file after loading.
+3. Get Ranking of a City X:
+○ Get the ranking of a specified city.
+○ City may or may not exist in the data.
+4. Get Information about a City X:
+○ Retrieve all information about a specified city.
+○ Print details, including rank, location, yearly tourists, and most visited place.
+○ City may or may not exist in the data.
+5. Update the Number of Yearly Tourists of a City X:
+○ Update the number of yearly tourists for a specified city.
+○ Ensure the array remains sorted by the number of tourists.
+○ City may or may not exist in the data.
+6. Find the Most Visited Cities in a Country X:
+○ Generate a file containing the names of cities and their most visited places for
+a specified country.
+○ Create the file only if the country exists in the data.
+7. Remove a City from the Ranking:
+○ Remove a specified city from the ranking.
+○ City may or may not exist in the data.
+General Guidelines and Notes:
+
+Use a defined data structure called city_info to represent city information.
+Avoid the use of global variables.
+Handle error conditions and user input validation.
+Close files properly and use the right access modes.
+Options 3 to 7 should not be executed if option 2 was not chosen.
+Implement functions for each menu option and a MENU function to display the menu
+choices.
+Use appropriate data types and structures to manage and analyze the data.
+Ensure proper error handling and memory management.
+No input/output functions should be used in user-defined functions for options 3 to 7.
